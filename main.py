@@ -31,8 +31,8 @@ def parse_args():
     parser.add_argument('--multi-gpus', type=bool, default=False)
     parser.add_argument('--if-checkpoint', type=bool, default=False)
 
-    parser.add_argument('--mode', type=str, default='train')
-    parser.add_argument('--weight-path', type=str, default='/root/HDNet/weight/irstd.pkl')
+    parser.add_argument('--mode', type=str, default='test')
+    parser.add_argument('--weight-path', type=str, default='/home/youtian/Documents/pro/pyCode/HDNet-TGRS/weight/table7-2025-6-23/weight.pkl')
 
     args = parser.parse_args()
     return args
